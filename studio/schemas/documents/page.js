@@ -46,22 +46,9 @@ export default {
     },
     {
       name: "seoMetaImage",
-      type: "image",
+      type: "nstepImage",
       title: "SEO Meta Image",
       description: "Thumbnail image for SEO and social sharing",
-      options: {
-        hotspot: true, // <-- Defaults to false
-      },
-      fields: [
-        {
-          name: "caption",
-          type: "string",
-          title: "Caption",
-          options: {
-            isHighlighted: true,
-          },
-        },
-      ],
     },
     {
       name: "children",
