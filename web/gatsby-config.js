@@ -15,6 +15,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: "gatsby-plugin-babel-plugin-typescript-to-proptypes",
+      options: {
+        maxDepth: 4,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-root-import`,
     `gatsby-plugin-sharp`,
